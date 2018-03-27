@@ -27313,15 +27313,84 @@
 /* 261 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	var React = __webpack_require__(8);
 
 	var About = function About(props) {
 	  return React.createElement(
-	    'h3',
+	    "div",
 	    null,
-	    'About Component'
+	    React.createElement(
+	      "h1",
+	      { className: "text-center" },
+	      "About"
+	    ),
+	    React.createElement(
+	      "p",
+	      { className: "text-center" },
+	      "Welcome to my React Weather App!"
+	    ),
+	    React.createElement(
+	      "p",
+	      { className: "text-center" },
+	      "In this ",
+	      React.createElement(
+	        "a",
+	        { href: "https://www.udemy.com/" },
+	        "Udemy"
+	      ),
+	      " course I've learned:"
+	    ),
+	    React.createElement(
+	      "ul",
+	      { className: "columns small-10 small-centered" },
+	      React.createElement(
+	        "li",
+	        null,
+	        React.createElement(
+	          "a",
+	          { href: "https://reactjs.org/" },
+	          "React"
+	        )
+	      ),
+	      React.createElement(
+	        "li",
+	        null,
+	        React.createElement(
+	          "a",
+	          { href: "https://www.npmjs.com/package/react-router" },
+	          "React Router"
+	        )
+	      ),
+	      React.createElement(
+	        "li",
+	        null,
+	        React.createElement(
+	          "a",
+	          { href: "https://webpack.js.org/" },
+	          "Webpack"
+	        )
+	      ),
+	      React.createElement(
+	        "li",
+	        null,
+	        React.createElement(
+	          "a",
+	          { href: "https://foundation.zurb.com/" },
+	          "Foundation"
+	        )
+	      ),
+	      React.createElement(
+	        "li",
+	        null,
+	        React.createElement(
+	          "a",
+	          { href: "http://openweathermap.org" },
+	          "Open Weather Map API"
+	        )
+	      )
+	    )
 	  );
 	};
 
